@@ -1,6 +1,8 @@
 #ifndef FLUTTER_PLUGIN_WINDOWS_NOTIFICATION_PLUGIN_H_
 #define FLUTTER_PLUGIN_WINDOWS_NOTIFICATION_PLUGIN_H_
 
+#pragma comment(lib, "windowsapp")
+
 #include <windows.h>
 
 #include <winrt/Windows.UI.Notifications.h>
